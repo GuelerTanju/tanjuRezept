@@ -37,7 +37,7 @@
 	list-style-position: inside;
 }
 
-@supports (clip-path: circle(70% at 0% 50%)) {
+
 	.recipe__img {
 		
 		clip-path: circle(70% at 0% 50%);
@@ -55,7 +55,7 @@
 	.recipe ul {
 		overflow: visible;
 	}
-}
+
 
 li
 {
@@ -65,4 +65,20 @@ li
 h2
 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li
+{
+	list-style: none;
+	
+}
+
+.fas
+{
+	color: orange;
+	margin-right: 10px;
+}
+
+.dicon
+{
+	margin-left: -23px;
 }
